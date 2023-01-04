@@ -3,17 +3,18 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <title>Marubat Musou</title>
+    <title>Marubatu Musou</title>
+
     <link rel="stylesheet" href="Build/style.css">
   </head>
   <body style="text-align: center">
-    <canvas id="unity-canvas" style="width: 100%; height: 100%; background: #8df67a"></canvas>
+    <canvas id="unity-canvas" style="width: 95%; height: 95%; background: #8bd4e6"></canvas>
     <script src="Build/Marubatu_Web.loader.js"></script>
     <script>
       createUnityInstance(document.querySelector("#unity-canvas"), {
-        dataUrl: "Build/Marubatu_Web.data.gz",
-        frameworkUrl: "Build/Marubatu_Web.framework.js.gz",
-        codeUrl: "Build/Marubatu_Web.wasm.gz",
+        dataUrl: "Build/Marubatu_Web.data",
+        frameworkUrl: "Build/Marubatu_Web.framework.js",
+        codeUrl: "Build/Marubatu_Web.wasm",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "SKGames",
         productName: "MarubatuMusou",
